@@ -1,0 +1,83 @@
+Fundamentals of programming (lab)
+
+Name: Muhammad Ahmed Naseer
+Class: ME-15,SEC-A
+Reg no. 467276
+Assignment: 1
+ 
+
+Question:1
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int x1;
+	int x2;
+	int y1;
+	int y2;
+	cout<<"write x1 ";
+	cin>> x1; 
+	cout<<"write x2 ";
+	cin>> x2;
+	cout<<"write y1 ";
+	cin>>y1;
+	cout<<"write y2 ";
+	cin>>y2;
+	int res;
+	cout<<"the distance between two points is ";
+	res=(x2-x1)*(x2-x1)+(y2-y1)*(y2-y1);
+	cout<<res<<endl;
+	return 0;
+}
+
+
+
+Question:2
+#include<iostream>
+using namespace std;
+int main ()
+{
+             float centimeters;
+	cout<<"enter values in centimeter " ;
+	cin>>centimeters;
+	float meters=centimeters/100;
+	float kilometers=centimeters/100000;
+	cout<<"the value in meters is ";
+	
+	cout<<meters<<endl;
+	cout<<"the value in meters is ";
+	cout<<kilometers<<endl;
+	return 0;
+} 
+
+Question:3
+#include<iostream>
+using namespace std;
+int main() 
+{
+cout<<"enter value of a ";
+ int a;
+ int b;
+ cin>>a;
+ cout<<"enter value of b ";
+ cin>>b;
+ int res;
+ cout<<"the answer is ";
+ res=a*a+2*a*b+b*b;
+ cout<<res<<endl;
+   return 0;	
+}
+
+Question 4:
+#include<iostream>
+using namespace std;
+int main()
+{
+float fahrenheit;
+cout<<"enter value in fahrenheit ";
+cin>>fahrenheit;
+float celcius= (fahrenheit-32)*5/9;
+cout<<"the value in celcius is ";
+cout<<celcius;
+return 0;
+}
